@@ -1,6 +1,0 @@
-{
-  "schemaVersion": 2,
-  "dockerfileLines": [
-    "FROM node:20.2.0-alpine"
-  ]
-}

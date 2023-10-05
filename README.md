@@ -3,4 +3,4 @@ docker-compose up
 
 docker build -t reddit .
 
-docker run -p 5000:5000 reddit
+docker run -p 3000:3000 reddit

@@ -4,6 +4,8 @@
 
 ## Dockerfile Method
 
+You need Docker (for your Desktop)
+
 `docker build -t reddit-style .`
 
 `docker run --rm --name reddit reddit-style`

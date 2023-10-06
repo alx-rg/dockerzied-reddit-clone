@@ -10,14 +10,16 @@
           <div class="text-right">
             <a href="/n/{{this.subreddit}}">{{this.subreddit}}<a>
           </div>
-          <p>{{this.voteScore}}</p>
+          <div class="vote-buttons"></div>
+            <p>{{this.voteScore}}</p>
 
-          <form class="vote-up" data-id="{{this._id}}">
-            <button type="submit">Vote Up</button>
-          </form>
-          <form class="vote-down" data-id="{{this._id}}">
-            <button type="submit">Vote Down</button>
-          </form>
+            <form class="vote-up" data-id="{{this._id}}">
+              <button type="submit" class="btn btn-primary">Vote Up</button>
+            </form>
+            <form class="vote-down" data-id="{{this._id}}">
+              <button type="submit" class="btn btn-secondary">Vote Down</button>
+            </form>
+          </div>
         </li>
       {{/each}}
     </ul>
